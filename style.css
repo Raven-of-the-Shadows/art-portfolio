@@ -1,17 +1,74 @@
 /*-----------------------------------------------------general---------------------------------------------------------*/
+*{
+    box-sizing: border-box;
+}
 body{
     background-image: url(images/bg.jpeg);
     background-repeat: no-repeat;
     background-size: 100%;
-    font-family: 'Pacifico', cursive;
+    font-family: 'Caveat', cursive;
+    color: white;
 }
 .container{
     width: 1200px;
     margin: auto;
 }
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+.row-column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
 /*-----------------------------------------------------header---------------------------------------------------------*/
+.logo{
+    font-family: 'Pacifico', cursive;
+    font-size: 80pt;
+    width: 33%;
+    transition: 2s;
+    transition-delay: 0.5s;
+}
+.contact{
+    padding: 30px;
+    font-size: 40pt;
+    width: 33%;
+    border: 1px solid transparent;   
+}
+.lang{
+    font-size: 40pt;
+    margin: auto;
+    width: 33%;
+    text-align: right;
+    transition: 3s;
+}
+.contact:hover{
+    border: 1px solid white;
+    border-radius: 10px;
+}
 /*-----------------------------------------------------main---------------------------------------------------------*/
+h1{
+    font-size: 70pt;
+    padding: 30px;
+}
+h3{
+    font-size: 50pt;
+    padding: 20px;
+}
+span{
+    font-family: 'Pacifico';
+    color: turquoise;
+}
+p{
+    font-size: 30pt;
+}
 /*-----------------------------------------------------footer---------------------------------------------------------*/
+
 /*-----------------------------------------------------adaptive---------------------------------------------------------*/
 /*desktop*/
 @media(min-width:1200px){
