@@ -44,7 +44,8 @@ img{
     padding: 30px;
     font-size: 40pt;
     width: 33%;
-    border: 1px solid transparent;   
+    border: 1px solid transparent;  
+    text-align: center; 
 }
 .lang{
     font-size: 40pt;
@@ -75,16 +76,42 @@ p{
 }
 .col-3{
     width: 20%;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;    
 }
 .col-4{
     width: 30%;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
 }
 .col-6{
     width: 45%;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
 }
 .col-3, .col-4, .col-6{
     text-align: center;
     font-size: 2em;
+}
+.col-3 a, .col-4 a, .col-6 a{
+    color:black;
+}
+ul{
+    background-color: white;
+    border-radius: 20px;
+}
+li{
+    font-size: 30pt;
+    padding: 10px 20px;
+} 
+li a{
+    color: black;
+}
+ul img{
+    width: 30px;
 }
 /*-----------------------------------------------------footer---------------------------------------------------------*/
 footer{
